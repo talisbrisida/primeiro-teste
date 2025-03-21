@@ -1,0 +1,24 @@
+Instruções
+1) Criar uma classe chamada Pessoa que recebe como atributos o peso (em kg) e altura (em metros) de uma pessoa. A classe deve ter um método chamado calcular_imc que calcula o IMC (Índice de Massa Corporal) e retorna uma classificação com base no valor do IMC.
+
+A classificação será feita da seguinte forma:
+
+IMC < 18.5: Abaixo do peso
+18.5 <= IMC < 24.9: Peso normal
+25 <= IMC < 29.9: Sobrepeso
+IMC >= 30: Obesidade
+A resposta deve ter além da classe um objeto que demonstra a solução do problema. Neste caso, faça a simulação com vários exemplos.
+* Os setters e getters devem ser implementados sob a forma compactada
+
+
+2) Criar uma classe chamada Imovel que será responsável por calcular o IPTU (Imposto Predial e Territorial Urbano) de um imóvel, com base na área construída. A classificação do valor do IPTU será feita conforme a seguinte tabela de faixas de área construída:
+
+Para imóveis com até 50 m² de área construída, o IPTU será R$ 500.
+Para imóveis com de 51 m² a 100 m² de área construída, o IPTU será R$ 800.
+Para imóveis com de 101 m² a 200 m² de área construída, o IPTU será R$ 1.200.
+Para imóveis com mais de 200 m² de área construída, o IPTU será R$ 2.000.
+Caso o imóvel não tenha área construída (área igual a 0 m²), o IPTU será um valor base de R$ 300.
+
+* Os setters e getters devem ser implementados sob a forma compactada
+
+Critério: Relacionamento de Conceitos
